@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.983">
+    <testcase classname="Add to cart" name="Verify the subtotal price is correct" time="27.811">
+        <system-out><![CDATA[Given Login into amazon.com.................................................passed
+When Search for item 'sd card' with filter capacity 64 GB...................passed
+And Sort by: Price: High to Low.............................................passed
+And Pick the first item in the list.........................................passed
+And Add to cart.............................................................passed
+And Increase quantity to 2..................................................passed
+Then Verify the subtotal price is correct...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

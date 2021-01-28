@@ -1,0 +1,150 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-28T12:01:20.882Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1526600300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.TestSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the subtotal price is correct",
+        "description": "",
+        "id": "add-to-cart;verify-the-subtotal-price-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 767083100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teststeps.TestSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2752068600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login into amazon.com",
+            "match": {
+              "location": "teststeps.TestSteps.login_into_amazon_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8513789100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for item \u0027sd card\u0027 with filter capacity 64 GB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sd card\u0027",
+                  "offset": 16
+                }
+              ],
+              "location": "teststeps.TestSteps.search_for_item_sd_card_with_filter_capacity_gb(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3093756100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sort by: Price: High to Low",
+            "match": {
+              "location": "teststeps.TestSteps.sort_by_price_from_high_to_low()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3178680500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Pick the first item in the list",
+            "match": {
+              "location": "teststeps.TestSteps.pick_the_first_item_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4662918000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Add to cart",
+            "match": {
+              "location": "teststeps.TestSteps.add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171918600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Increase quantity to 2",
+            "match": {
+              "location": "teststeps.TestSteps.increase_quantity_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3075275400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the subtotal price is correct",
+            "match": {
+              "location": "teststeps.TestSteps.verify_the_subtotal_price_is_correct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addcart"
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:features/addcart.feature",
+    "tags": [
+      {
+        "name": "@addcart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
